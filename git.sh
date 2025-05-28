@@ -14,5 +14,5 @@ do
     git commit -m "Automated commit from CI/CD pipeline"
     git push origin main
     fi
-    sleep 5
+    sleep 60
 done

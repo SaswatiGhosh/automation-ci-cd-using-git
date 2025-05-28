@@ -9,8 +9,7 @@ current_status=$(git status 2>&1)
 while true
 do
     if [ "$current_status" == "nothing to commit, working tree clean" ]; then
-    
-    elseecho "The repository is clean."
+
      
     echo "Git status is not as expected.Change is there."
     git add .

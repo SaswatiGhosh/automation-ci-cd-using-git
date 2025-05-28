@@ -5,7 +5,7 @@
 # Date: [Today's Date]
 
 
-current_status=$(git status 2>&1)
+current_status=$(git status )
 while true
 do
     if [ "$current_status" == "nothing to commit, working tree clean" ]; then 
